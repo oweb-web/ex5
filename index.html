@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JB 베이커리</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 사용자 제이쿼리 -->
+    <script src="./js/jquery-1.12.3.js"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+</head>
+
+<body>
+
+    <!-- 레이어 팝업창 -->
+    <div class="popup">
+        <h2>이벤트 공지!</h2>
+        <p>제1회 JB 베이커리 워크숍에 초대합니다(서울권).</p>
+        <p>#JB베이커리워크숍 #이벤트 #포인트 적립</p>
+        <a href="#" class="detail">자세히 보기</a>
+        <div class="close_box">
+            <button id="btn_close">닫기</button>
+        </div>
+    </div>
+
+
+    <!-- 헤더 -->
+    <header id="main_header">
+        <h1>
+            <a href="index.html">
+                <img src="./images/logo.png" alt="JB베이커리">
+            </a>
+        </h1>
+
+        <nav id="main_gnb">
+            <ul class="depth1">
+                <li><a href="#">JB 소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">브랜드 스토리</a></li>
+                        <li><a href="#">JB 가맹점</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제품 소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">빵</a></li>
+                        <li><a href="#">케이크</a></li>
+                        <li><a href="#">음료</a></li>
+                        <li><a href="#">선물</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">빵 만들기</a>
+                    <ul class="depth2">
+                        <li><a href="#">제빵 재료</a></li>
+                        <li><a href="#">제빵 도구</a></li>
+                        <li><a href="#">제빵 포장도구</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul class="depth2">
+                        <li><a href="#">나만의 레시피</a></li>
+                        <li><a href="#">내가 만든 빵</a></li>
+                        <li><a href="#">제빵 노하우</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 배너 -->
+    <section id="main_banner">
+        <div class="slider">
+            <img src="./images/banner1.jpg" alt="배너1">
+            <img src="./images/banner2.jpg" alt="배너2">
+            <img src="./images/banner3.jpg" alt="배너3">
+        </div>
+    </section>
+
+    <!-- 콘텐츠 -->
+    <div id="contents_wrap">
+        <section id="contents_news">
+            <div class="news_list">
+                <h3>▶ 공지사항</h3>
+                <ul>
+                    <li>
+                        <a href="#">제1회 JB 베이커리 워크숍에 초대합니다(서울권).</a>
+                        <span>2019-12-12</span>
+                    </li>
+                    <li>
+                        <a href="#">올림픽공원 카페 초보 여성 창업을 추천받습니다.</a>
+                        <span>2019-12-10</span>
+                    </li>
+                    <li>
+                        <a href="#">맛과 영양, 환경문제까지 생각하는 베이커리!</a>
+                        <span>2019-12-09</span>
+                    </li>
+                    <li>
+                        <a href="#">고품질 크림으로 만든 디저트로 달콤하게 겨울나기</a>
+                        <span>2019-12-07</span>
+                    </li>
+                    <li>
+                        <a href="#">온가족이 함께 즐기는 베이킹 체험 교실</a>
+                        <span>2019-12-05</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 갤러리 -->
+        <section id="contents_gallay">
+            <div id="gellay">
+                <h3>▶ 갤러리</h3>
+                <div class="border">
+                    <ul>
+                        <li><img src="./images/gall1.jpg" alt="gallry1"></li>
+                        <li><img src="./images/gall2.jpg" alt="gallry2"></li>
+                        <li><img src="./images/gall3.jpg" alt="gallry3"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 미니배너 -->
+        <section id="contents_mini">
+            <img src="./images/mini_banner.jpg" alt="미니배너">
+        </section>
+    </div>
+
+    <!-- 푸터 -->
+    <footer id="main_footer">
+        <h1><img src="./images/logo_footer.png" alt="JB베이커리"></h1>
+        <p><span>법적고지 | <strong>개인정보취급방침</strong> | 개인정보처리방침</span></p>
+        <p>
+            <span>상호명:(주)JB컴퍼니 |
+                대표자:윤정우 |
+                개인정보관리책임자:김선정 |
+                상담전화:1588-0789 |
+            </span>
+        </p>
+        <address>사업장주소:서울특별시 금천구 가산동 가산디지털2로</address>
+        <p class="copyright">COPYRIGHT &copy; 2019 JBcompany. ALL RIGHTS RESERVED.</p>
+        <h2><img src="./images/PARTNER_UP.png" alt="파트너"></h2>
+    </footer>
+</body>
+
+</html>
